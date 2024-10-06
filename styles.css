@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('Roboto-Regular.ttf') format('ttf');
+}
+
+body {
+    font-family: 'Roboto Regular', sans-serif;
+    max-width: 600pt;
+    min-width: 400pt;
+    margin: auto;
+}
+
+.header-placeholder-image {
+    background-color: rgb(109, 115, 125);
+    padding: 5pt; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.solid-signup-button {
+    background-color: rgb(55, 130, 245);
+    color: white;
+    border: 0;
+    border-radius: 5pt;
+    padding: 5pt 20pt;
+    margin: 10pt 0;
+}
+
+.body-placeholder-image {
+    border: 5pt;
+    border-color: rgb(55, 130, 245);
+    border-style: solid;
+    border-radius: 5pt;
+    margin: 5pt;
+    padding: 5pt;
+    box-sizing: border-box;
+    display: flex; /* Use flexbox as a workaround to center the text */
+    align-items: center;
+    justify-content: center;
+}
+
+.header-box {
+    width: 100%; 
+    background-color: rgb(31, 41, 54);
+    color: white;
+    text-align: center; 
+    padding-bottom: 40pt;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10pt;
+    background-color: rgb(31, 41, 54);
+    color: white;
+    text-align: center;
+}
